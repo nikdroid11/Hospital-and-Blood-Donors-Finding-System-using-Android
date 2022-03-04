@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home_menu_qr_code"
+        android:title="My QR Code"
+        android:icon="@drawable/icon_qr_code"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/home_menu_my_profile"
+        android:title="My Profile"
+        android:icon="@drawable/person_icon"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/home_menu_logout"
+        android:title="Logout"
+        app:showAsAction="never"/>
+
+</menu>
